@@ -1,0 +1,57 @@
+#number-guess-game{
+    width:50%;
+    height: 60%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    box-shadow: 0 0 30px #eee;
+    border-radius: 6px;
+}
+
+#game-input{
+    outline: none;
+    border: 1px solid #ccc;
+    padding: 4px 10px;
+
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ng-title{
+    margin: 5% 0;
+    font: 30px "Andale Mono";
+    text-align: center;
+}
+.ng-explain{
+    margin: 4% 0;
+    color: #444;
+    font: 18px "Chalkboard SE";
+}
+.ng-input label{
+    font: 18px "Chalkboard SE";
+}
+.ng-input input, .ng-input button{
+    font: 18px "Chalkboard SE";
+}
+.ng-input{
+    font: 18px "Chalkboard SE";
+    height: 3.5rem;
+    line-height: 3.5rem;
+}
+
+div {
+    font: 18px "Chalkboard SE";
+}
+#ng-restart{
+    font: 18px "Chalkboard SE";
+    margin-top: 10px;
+    width: 250px;
+}
+
+
